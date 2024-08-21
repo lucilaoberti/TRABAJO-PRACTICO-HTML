@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico HTML</title>
+    <style>
+        header{
+            background-color:#114c5f;
+            color: white ;
+            text-align: center;
+        }
+        section{
+            margin:20px;
+            padding:20px;
+            border: 1px solid #0799b6;
+            border: radius 10px; 
+        }
+        footer{
+            background-color: #114c5f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!--Header -->
+    <header>
+        <h1>Trabajo Práctico HTML UTN  </h1>
+        <h3>OBERTI MIRAS MARÍA LUCILA 
+            50112 3K9</h3> 
+    </header>  
+    <section id = "Seccion1">
+        <!--Seccion 1 Estructura basica del documento-->
+        <h2>1.Estructura basica HTML</h2>
+        <p> Este documento HTML tiene una estructura basica que incluye la declaración DOCTYPE ,etiquetas de metadatos y un título </P>
+    </section>
+   <section id = "Seccion2">
+        <!--Encabezados y propiedades de texto-->
+        <h2>2.Encabezados y propiedades de texto</h2>
+        <h3 style="font-weight:bold;">Este es un texto en negrita  </h3> 
+        <h4 style=" font-style: italic;">Este es un texto en cursiva</h4>
+        <h5 style="text-decoration: underline;">Este es un texto subrayado</h5>
+        <h6>Este es un texto normal </h6>
+   </section> 
+
+   <section id ="Seccion3">
+         <!--Divisones y agrupacion de contenido-->
+        <h2>3.Divisiones y agrupación de contenido</h2>
+        
+            <h3>Sección 1</h3>
+                <div>
+                    <p> Contenido agrupado dentro de un <strong>div </strong></p>
+                </div>
+       
+      
+             <h4>Sección2</h4>
+             <div>
+             <p> Contenido agrupado dentro de un <strong>div </strong></p>
+             </div>
+       
+    </section>
+    <section id ="Seccion4">
+        <h2>4.Enlaces y listas</h2>
+            <h3>Enlaces</h3>
+                <nav>
+                     <ul>
+                        <li><a href="#Seccion1">Sección 1</a></li>
+                        <li><a href="#Seccion2">Sección 2</a></li>
+                        <li><a href="#Seccion3">Sección 3</a></li>
+                        <li><a href="#Seccion4">Sección 4</a></li> 
+                     </ul>
+                 </nav>
+        <h3>Lista desordenada</h3>
+                        <ul>
+                            <li> Primer ítem de una lista desordenada </li>
+                            <li> Segundo ítem de una lista desordenada </li>
+                            <li> Tercer ítem de una lista desordenada</li>
+                        </ul>
+        <h3>Lista ordenada</h3>
+                        <ol>
+                            <li> Primer ítem de una lista ordenada </li>
+                            <li> Segundo ítem de una lista ordenada</li>
+                            <li> Tercer ítem de una lista ordenada </li>
+                        </ol> 
+        <p>Visita <a href = "https://youtu.be/tSdBH5xsDOk?si=vFL1ZmR7DbfPyUgc">Youtube</a> para aprendar mas sobre HTML.</p>
+
+     </section> 
+     <section id="5">
+        <h2>5.Elementos multimedia</h2>
+            <img src="https://www.gruponw.com/nwlib6/includes/phpthumb/phpThumb.php?src=/imagenes/html.jpg&w=700&f=webp" alt="Imagen HTML" width="300px" />
+            <video width="400" height="400px" controls>
+                <source src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" type="video/mp4">
+            </video>
+           <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls >
+     </section>
+    <section>
+        <h2>6.Tablas</h2>
+        <table border =1px>
+            <thead>
+                <tr>
+                    <th>Columna1</th>
+                    <th>Columna2</th>
+                    
+                </tr>
+            <thead>
+           <tbody>
+                <tr>
+                    <td>Dato1</td>
+                    <td>Dato2</td>
+                </tr>
+                <tr>
+                    <td>Dato3</td>
+                    <td>Dato4</td>
+                </tr>
+           </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>7.Formularios</h2>
+        <form>
+            <div>
+              <label>Email</label>
+              <input type="email" placeholder="example@example.com" />
+            </div>
+            <div>
+              <label>Nombre</label>
+              <input type="text" placeholder="Ingrese su nombre" />
+            </div>
+            <div>
+              <label>Apellido</label>
+              <input type="text" placeholder="Ingrese su apellido" />
+            </div>
+            <div>
+              <label>Edad</label>
+              <input type="number" placeholder="Ingrese su edad" />
+            </div>
+            <div>
+              <label>Ingrese información extra</label>
+              <textarea placeholder="información extra"></textarea>
+            </div>
+            <button type="submit">Enviar formulario</button>
+          </form>          
+    </section>
+   <footer>
+    <p>2024-TRABAJO PRÁCTICO HTML-Oberti Miras María Lucila -50112- 3k9 </p>
+   </footer>
+</body>
